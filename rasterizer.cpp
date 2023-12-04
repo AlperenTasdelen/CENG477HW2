@@ -2,6 +2,8 @@
 #include <vector>
 #include "Scene.h"
 
+//TODO: Scene.h does not seen inside rasterizer (maybe intellisense error)
+
 using namespace std;
 
 //TODO: Start implementations here
@@ -43,7 +45,7 @@ int main(int argc, char *argv[])
 
         scene = new Scene(xmlPath);
 
-        for (int i = 0; i < scene->cameras.size(); i++)
+        for (int i = 0; i < 0 /* scene->cameras.size() */ ; i++)
         {
             // initialize image with basic values
             scene->initializeImage(scene->cameras[i]);
