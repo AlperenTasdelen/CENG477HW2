@@ -2,7 +2,7 @@
 
 using namespace std;
 
-//TODO: Start implementations here
+//TODO: Start implementations to the Main
 /*
     1. Transform vertices to the viewport
     2. Line drawing algorithm
